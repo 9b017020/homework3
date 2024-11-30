@@ -7,7 +7,7 @@ import requests
 import unicodedata
 import sqlite3
 
-# 連接資
+# 連接資料庫
 conn = sqlite3.connect('contacts.db')
 cursor = conn.cursor()
 
